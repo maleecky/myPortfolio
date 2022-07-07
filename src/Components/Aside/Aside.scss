@@ -1,0 +1,26 @@
+.emasb {
+  right: 50px;
+}
+
+.as-cont {
+  ul {
+    li {
+      padding: 10px 0;
+      a {
+        font-size: var(--fz-xxl);
+      }
+    }
+  }
+  a {
+    writing-mode: vertical-lr;
+    letter-spacing: 2px;
+  }
+  &::after {
+    content: '';
+    width: 1px;
+    height: 150px;
+    background: var(--primary-crl);
+    display: block;
+    margin-top: 10px;
+  }
+}

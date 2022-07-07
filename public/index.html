@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Abdumarick Omary is a front-end developer skilled in designing interactive systems and progressively enhanced web applications. Located in Arusha, Tanzania"
+    />
+    <meta name="keywords" content="html, javascript and projects" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:title"
+      content="AO | Front End Developer | UX Engineer - Freelancer "
+    />
+    <meta
+      property="og:description"
+      content="Abdumarick Omary is a front-end developer skilled in designing interactive systems and progressively enhanced web applications. Located in Arusha, Tanzania"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:robot" content="index, follow" />
+    <meta property="og:site_name" content="Abdumarick Omary" />
+    <meta property="og:locale" content="en-US" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="@omary_marick" />
+    <meta property="twitter:creator" content="@omary_marick" />
+    <meta
+      property="twitter:title"
+      content="AO | Front End Developer | UX Engineer - Freelancer"
+    />
+    <meta
+      property="twitter:description"
+      content="Abdumarick Omary is a front-end developer skilled in designing interactive systems and progressively enhanced web applications. Located in Arusha, Tanzania"
+    />
+    <meta name="theme-color" content="#020c1b">
+    <link rel="icon" href="./favicon.png" type="image/png">
+    <link rel="shortcut icon" href="./icon32x32.png" type="image/png">
+    <link rel="apple-touch-icon"  sizes="57x57" href="./icon57x57.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./logo72x72.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./logo114x114.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./logo144x144.png" type="image/png">
+    <link rel="manifest" href="./manifest.json">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>AO | Front End Developer | UX Engineer - Freelancer</title>
+  </head>
+  <style>
+    .preloader{
+      height: 100vh;
+      width: 100vw;
+      background: #020c1b;
+      position: absolute;
+      top:0;
+      left:0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 10000000;
+      overflow: hidden;
+    }
+    .preloader > svg {
+      width: 70px;
+      height: 70px;
+
+    }
+    .preloader > svg > rect{
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      animation: lineMotion 2s linear infinite;
+    }
+    .preloader > svg > path{
+      animation:  1s 2s;
+    }
+
+    @keyframes lineMotion {
+      0%{
+        stroke-dashoffset: 200;
+      }
+      25%{
+        stroke-dashoffset: 150;
+      }
+      50%{
+        stroke-dashoffset:100 ;
+      }
+      75%{
+        stroke-dashoffset:50 ;
+      }
+      100%{
+        stroke-dashoffset:0 ;
+      }
+    }
+
+  </style>
+  <body>
+    <noscript>
+      <strong>We're sorry but this site doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="loader" class="preloader">
+      <svg width="43" height="44" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="1" width="40.7097" height="42" stroke="#64FFDA" stroke-width="2"/>
+        <g id="text" class="animate__animated animate__jackInTheBox animate__slow  animate__delay-0.8s animate__infinite	infinite">
+          <path  d="M10.8013 28H9.20752L14.2461 16.1299H15.9478L21.0112 28H19.3096L17.7739 24.2646H13.8477L14.271 23.0195H17.2593L15.043 17.6406L10.8013 28Z" fill="#64FFDA" />
+          <path d="M24.6147 22.0317C24.6147 25.2358 26.0618 26.8379 28.9561 26.8379C31.7894 26.8379 33.2061 25.2358 33.2061 22.0317C33.2061 18.8719 31.7894 17.292 28.9561 17.292C26.0618 17.292 24.6147 18.8719 24.6147 22.0317ZM22.9961 22.0815C22.9961 18.0584 24.9827 16.0469 28.9561 16.0469C32.8685 16.0469 34.8247 18.0584 34.8247 22.0815C34.8247 26.0825 32.8685 28.083 28.9561 28.083C24.9827 28.083 22.9961 26.0825 22.9961 22.0815Z" fill="#64FFDA"/>  
+        </g>
+       </svg>          
+    </div>
+    <main id="root">
+    </main>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      ;(function () {
+        emailjs.init('DfneZcKKIAZOKCNyI')
+      })()
+    </script>
+  </body>
+</html>

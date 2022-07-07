@@ -1,0 +1,42 @@
+#end{
+    margin-bottom: 100px;
+    p{
+        text-transform: capitalize;
+        font-size: clamp(13px, 5vw, 15px);
+        text-align: center;
+       
+    }
+    .sm-social{
+        display: none;
+    }
+    ul{
+        li{
+            a{
+                font-size:clamp( 15px, 5vw, 22px);
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+
+@media  screen and (max-width: 768px) {
+   #end .sm-social{
+        display: block;
+    }
+    #end{
+        margin-bottom: 40px;
+    }
+}
+@media  screen and (max-width: 338px) {
+     #end p{
+        position: relative;
+        right: 10px;
+     }
+ }
+
+ @media  screen and (max-height: 560px) {
+    #end .sm-social{
+         display: block;
+     }
+ }

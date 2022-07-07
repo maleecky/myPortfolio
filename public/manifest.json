@@ -1,0 +1,40 @@
+{
+    "short_name": "Abdumarick's personal website",
+    "name": "Abdumarick's personal website",
+    "icons": [
+      {
+        "src": "./favicon.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "src": "./icon32x32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "./icon57x57.png",
+        "type": "image/png",
+        "sizes": "57x57"
+      },
+      {
+        "src": "./logo72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "./logo114x114.png",
+        "type": "image/png",
+        "sizes": "114x114"
+      },
+      {
+        "src": "./logo144x144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#020c1b",
+    "background_color": "#020c1b"
+  }

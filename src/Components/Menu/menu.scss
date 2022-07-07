@@ -1,0 +1,29 @@
+.topAlways{
+  z-index: 1000;
+}
+
+.nmwid {
+  background: var(--green-tint-crl);
+  backdrop-filter: blur(2px);
+  padding: 20px 20px 10px 20px;
+  transition: all 0.2s ease-out;
+
+  a {
+    padding: 0 15px;
+    font-size: var(--fz-xxl);
+    transition: all var(--pr-transt);
+
+    &:hover {
+      transform: translateY(-4px);
+      &::after {
+        content: '';
+        width: 3px;
+        height: 3px;
+        border-radius: 50px;
+        background: var(--green-crl);
+        display: block;
+        margin-inline: auto;
+      }
+    }
+  }
+}
