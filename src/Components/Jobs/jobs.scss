@@ -170,10 +170,11 @@
   }
 
   .project-image a::after {
-    background: var(--light-navy-bg);
-    mix-blend-mode: normal;
-    filter: none;
-    opacity: 0.95;
+      background: var(--accent-bg);
+      mix-blend-mode: normal;
+      filter: none;
+      border: 1px solid var(--green-tint-crl);
+      opacity: 0.95;
   }
   .project-image a:hover,
   .project-image a:focus {
@@ -255,6 +256,12 @@
   .project-details .project-title h5 {
     font-size: clamp(13px, 5vw, 14px);
   }
+}
+@media screen and (max-width: 450px) {
+.project-details {
+    padding: 5px;
+}
+  
 }
 @media screen and (max-width: 400px) {
   .project-details {

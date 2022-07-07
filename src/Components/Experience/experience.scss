@@ -49,6 +49,7 @@
                 font-size: clamp(12px,5vw, 13px);
                 margin-right: 10px;
                 display: block;
+                outline: none;
             }
             font-size: clamp(14px, 5vw , 16px);
             margin-bottom: 10px;
@@ -64,5 +65,10 @@
     }
     .ex-info ul li p {
         max-width: 100%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .job-info {
+        margin-left: 30px;
     }
 }
