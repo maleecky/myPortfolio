@@ -321,6 +321,11 @@ footer {
     padding: 0px 25px;
   }
 }
+@media screen and (max-width: 450px) {
+  p{
+    text-align: justify;
+  }
+}
 @media screen and (max-height: 560px) {
   .sm-dsply {
     display: none;
