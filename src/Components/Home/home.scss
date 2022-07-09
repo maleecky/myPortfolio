@@ -35,13 +35,13 @@
 }
 @media screen and (max-width: 450px) {
     .bg-heading {
-        font-size: clamp(20px, 5vw, 50px);
+        font-size: clamp(20px, 8vw, 50px);
     }
     .primary-btn {
         padding: 12px 24px;
 }
 p {
-    font-size: clamp(14px, 2vw, 16px);
+    font-size: clamp(14px,5vw,16px);
 }
 }
 
