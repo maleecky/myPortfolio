@@ -101,6 +101,9 @@ textarea {
   padding: 20px;
   font-family: var(--primary-ff);
   margin-bottom: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 textarea {
