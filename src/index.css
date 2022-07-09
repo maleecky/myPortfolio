@@ -110,6 +110,7 @@ textarea {
 input[type='submit'] {
   max-width: 200px;
   cursor: pointer;
+  outline: none;
 }
 input[type='submit']:hover,
 input[type='submit']:focus {
