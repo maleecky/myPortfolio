@@ -283,6 +283,10 @@ footer {
 .sm-dsply {
   display: none;
 }
+.p-icon{
+  position: absolute;
+  color: var(--green-crl);
+}
 .btn {
   border: none;
   background: transparent;

@@ -20,13 +20,7 @@
             li{
                 p{
                     padding-bottom: 20px !important;
-                    &::before{
-                        content: '▶';
-                        color: var(--green-crl);
-                        font-size: clamp(10px, 5vw, 12px);
-                        margin-right: 10px;
-
-                    }
+                    margin-left: 20px;
                 }
   
             }

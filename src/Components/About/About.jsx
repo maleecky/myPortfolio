@@ -1,5 +1,6 @@
 import React from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { BsPlayFill } from 'react-icons/bs'
 import {faJsSquare, faCss3, faHtml5, faPython,faReact,faGitAlt} from '@fortawesome/free-brands-svg-icons'
 import './about.scss'
 function About() {
@@ -37,23 +38,41 @@ function About() {
               <div className="flex-np">
                 <div className="col">
                   <li>
+                    <div className="p-icon">
+                      <BsPlayFill/>
+                    </div>
                     <p>Javascript(ES6+)</p>
                   </li>
                   <li>
+                    <div className="p-icon">
+                      <BsPlayFill/>
+                    </div>
                     <p>React</p>
                   </li>
                   <li>
+                    <div className="p-icon">
+                      <BsPlayFill/>
+                    </div>
                     <p>Php</p>
                   </li>
                 </div>
                 <div className="col">
                   <li>
+                    <div className="p-icon">
+                      <BsPlayFill/>
+                    </div>
                     <p>Css3</p>
                   </li>
                   <li>
+                    <div className="p-icon">
+                      <BsPlayFill/>
+                    </div>
                     <p>Python</p>
                   </li>
                   <li>
+                    <div className="p-icon">
+                      <BsPlayFill/>
+                    </div>
                     <p>html5</p>
                   </li>
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './experience.scss'
+import { BsPlayFill } from 'react-icons/bs'
 
 function Experience() {
   return (
@@ -29,12 +30,18 @@ function Experience() {
           <div className="ex-info">
             <ul>
               <li>
+                <div className="p-icon">
+                  <BsPlayFill/>
+                </div>
                 <p>
                   Write modern, performant, maintainable code for a diverse
                   array of client and internal projects
                 </p>
               </li>
               <li>
+                <div className="p-icon">
+                  <BsPlayFill/>
+                </div>
                 <p>
                   {' '}
                   Work with a variety of different languages, platforms,
@@ -44,6 +51,9 @@ function Experience() {
                 </p>
               </li>
               <li>
+               <div className="p-icon">
+                  <BsPlayFill/>
+                </div>
                 <p>
                   {' '}
                   Interfaced with user experience designers and other developers
@@ -51,6 +61,9 @@ function Experience() {
                 </p>
               </li>
               <li>
+                <div className="p-icon">
+                  <BsPlayFill/>
+                </div>
                 <p>
                   {' '}
                   Communicate with multi-disciplinary teams of engineers,
