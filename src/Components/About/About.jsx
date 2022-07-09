@@ -20,7 +20,7 @@ function About() {
             </p>
             <p>
               I am really enjoying creating projects that stand out on the
-              internet, and I've had the privalege of helping different
+              internet, and I've had the privilege of helping different
               companies, start-up and huge advertising agency turns their vision
               into actions that lives on internet. My main focus is building
               accessible products that will improve digital experiences of
