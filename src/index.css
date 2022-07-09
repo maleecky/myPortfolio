@@ -115,9 +115,7 @@ input[type='submit']:hover,
 input[type='submit']:focus {
   background: var(--green-tint-crl);
 }
-input[type='submit']:focus {
-  outline: 1px dashed var(--white-crl);
-}
+
 
 h1,
 h2 {
@@ -140,17 +138,11 @@ a {
   font-size: var(--fz-md);
   transition: color var(--pr-transt);
 }
-a:hover {
+a:hover,a:focus {
   color: var(--green-crl);
 }
-a:focus {
-  outline: 1px dashed var(--white-crl);
-  color: var(--green-crl);
-}
-:active{
-  outline: none;
-  
-}
+
+
 
 .unique-text {
   color: var(--green-crl);
